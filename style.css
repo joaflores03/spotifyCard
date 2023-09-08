@@ -124,6 +124,9 @@ ion-icon{
     font-size: 30px;
     color: rgba(255, 255, 255, 0.753);
 }
+.sectionDown ion-icon:hover{
+    color: rgba(255, 255, 255, 0.489);
+}
 
 .sectionAbout{
     display: flex;
@@ -177,3 +180,6 @@ ion-icon{
     border-right: none;
 }
 
+ion-icon{
+    cursor: pointer;
+}

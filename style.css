@@ -14,7 +14,8 @@
     width: 275px;
     height: 450px;
     border: 1px solid black;
-    background-clip: ;
+    border-radius: 10px;
+    background-image: url(bg.avif);
 }
 
 .cardInfoTop{
@@ -79,17 +80,20 @@ ion-icon{
 .songTitle{
     margin-bottom: -12px;
     font-weight: 800;
+    color: rgba(255, 255, 255, 0.752);
 }
 .artistName{
     font-size: 11px;
     font-weight: 800;
+    color: rgba(255, 255, 255, 0.314);
 }
 .topRight{
     margin-right: 10px;
     
 }
 .topRight ion-icon{
-    font-size: 18px;
+    font-size: 20px;
+    color: green;
 }
 
 .sectionMid{
@@ -97,7 +101,7 @@ ion-icon{
 }
 .sectionMid .reproductionBar{
     width: 230px;
-    border: 1px solid rgba(0, 0, 0, 0.438);
+    border: 1px solid rgba(255, 255, 255, 0.438);
     position: relative;
 }
 
@@ -106,6 +110,7 @@ ion-icon{
     margin-top: -50px;
     margin-left: 200px;
     font-size: 46px;
+    color: rgb(78, 160, 83);
 }
 
 .sectionDown{
@@ -117,6 +122,7 @@ ion-icon{
 }
 .sectionDown ion-icon{
     font-size: 30px;
+    color: rgba(255, 255, 255, 0.753);
 }
 
 .sectionAbout{
@@ -134,10 +140,11 @@ ion-icon{
     align-items: center;
     gap: 5px;
     margin-left: 10px;
+    color: rgba(255, 255, 255, 0.753);
 }
 .deviceConn{
     font-size: 14px;
-    color: rgb(28, 218, 28);
+    color: rgba(0, 232, 0, 0.633);
 }
 .infoRight{
     display: flex;
@@ -145,13 +152,16 @@ ion-icon{
     align-items: center;
     gap: 5px;
     margin-right: 10px;
+    color: rgba(255, 255, 255, 0.753);
 }
 .infoRight ion-icon{
     font-size: 20px;
 }
+
 .infoLeft ion-icon{
     font-size: 20px;
 }
+
 
 .lyricsPart{
     display: none;

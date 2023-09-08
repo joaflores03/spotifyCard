@@ -12,7 +12,7 @@
     align-items: center;
     flex-direction: column;
     width: 275px;
-    height: 500px;
+    height: 450px;
     border: 1px solid black;
     background-clip: ;
 }
@@ -121,9 +121,11 @@ ion-icon{
 
 .sectionAbout{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-top: 10px;
+
 }
 
 .infoLeft{
@@ -131,13 +133,37 @@ ion-icon{
     justify-content: center;
     align-items: center;
     gap: 5px;
+    margin-left: 10px;
+}
+.deviceConn{
+    font-size: 14px;
+    color: rgb(28, 218, 28);
 }
 .infoRight{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
+    margin-right: 10px;
 }
 .infoRight ion-icon{
-    font-size: 17px;
+    font-size: 20px;
 }
+.infoLeft ion-icon{
+    font-size: 20px;
+}
+
+.lyricsPart{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border: 2px solid skyblue;
+    background-color: aqua;
+    margin-top: 40px;
+    border-radius: 14px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
